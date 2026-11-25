@@ -9,7 +9,7 @@ cask "wingg" do
 
   livecheck do
     url "https://github.com/augustohub/wingg-releases/releases/latest/download/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
