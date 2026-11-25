@@ -1,6 +1,6 @@
 cask "wingg" do
-  version "0.3.0"
-  sha256 "16ee2d662d02a9d19ac9145e0c08dcb69dbc236e01d6dd007bb27e3fed7bbf41"
+  version "0.3.1"
+  sha256 "3141b4fcd9f6b81941582b4546c989596bd60694b01bfb6feb3312caacd52206"
 
   url "https://github.com/augustohub/wingg-releases/releases/download/v#{version}/Wingg-#{version}.zip"
   name "Wingg"
